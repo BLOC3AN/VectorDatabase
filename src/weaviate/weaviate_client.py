@@ -1,6 +1,9 @@
 from weaviate.classes.config import( #type: ignore
     Configure, 
-    VectorDistances
+    VectorDistances,
+    Property,
+    DataType,
+    Tokenization
     ) 
 import weaviate
 import requests
@@ -74,7 +77,7 @@ class WeaviateClient:
     def create_collection(
         self, 
         collection_name: str, 
-        model_name: str = "Qwen3-Embedding-0.6B",
+        model_name: str = "qwen3_embdedding",
         distance_metric: str = "cosine",
         )-> bool:
         """
@@ -93,7 +96,7 @@ class WeaviateClient:
             logger.error("Weaviate is not ready")
             raise Exception("Weaviate is not ready")
         
-        if not self.client.collections.exists("collection_name"):
+        if self.client.collections.exists(collection_name):
             logger.error(f"Collection {collection_name} already exists")
             return None
         
@@ -105,13 +108,43 @@ class WeaviateClient:
         self.client.collections.create(
             collection_name,
             vector_config=[
-                Configure.Vectors.self_provided(
-                    name=model_name,
+                # Configure.Vectors.self_provided(
+                #     name=model_name,
+                #     vector_index_config=Configure.VectorIndex.hnsw(
+                #         distance_metric=distance_metric
+                #     )
+                # ),
+                Configure.MultiVectors.self_provided(
+                    name="title_vector",
                     vector_index_config=Configure.VectorIndex.hnsw(
                         distance_metric=distance_metric
-                    ),
+                    )
                 ),
-            ]
+                Configure.MultiVectors.self_provided(
+                    name="body_vector",
+                    vector_index_config=Configure.VectorIndex.hnsw(
+                        distance_metric=distance_metric
+                    )
+                ),
+            ],
+            properties=[ 
+                Property(
+                    name="title", 
+                    data_type=DataType.TEXT,
+                    vectorize_property_name=True,
+                    tokenization=Tokenization.LOWERCASE,
+                    description="The title of document",
+                    is_filterable=True,
+                    is_searchable=True,
+                    ),
+                Property(
+                    name="body", 
+                    data_type=DataType.TEXT,
+                    description="The content of document",
+                    is_filterable=True,
+                    is_searchable=True,
+                    ),
+            ],
         )
         logger.info(f"""\n
                     Collection {collection_name} created\n 
