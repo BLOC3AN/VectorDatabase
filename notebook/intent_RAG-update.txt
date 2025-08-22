@@ -1,0 +1,194 @@
+# BOOKING SERVICE INTENT - Đặt lịch dọn nhà
+booking_service:
+- đặt lịch dọn nhà
+- Đặt lịch dọn nhà cho tôi
+- lịch dọn nhà
+- muốn đặt lịch dọn nhà
+- cần đặt lịch dọn nhà
+- tôi muốn đặt lịch dọn nhà
+- anh muốn đặt lịch dọn nhà
+- em muốn đặt lịch dọn nhà
+- đặt lịch dọn nhà giúp tôi
+- đặt lịch dọn nhà hộ tôi
+- book lịch dọn nhà
+- đặt lịch dọn
+- lịch dọn
+
+
+# BOOKING SERVICE INTENT - Đặt lịch dọn dẹp
+booking_service:
+- Tôi muốn đặt lịch dọn dẹp nhà
+- đặt lịch dọn dẹp
+- lịch dọn dẹp
+- muốn đặt lịch dọn dẹp
+- cần đặt lịch dọn dẹp
+- tôi muốn đặt lịch dọn dẹp
+
+
+# BOOKING SERVICE INTENT - Book dịch vụ
+booking_service:
+- Tôi muốn book dịch vụ cleaning
+- book dịch vụ dọn nhà
+- Tôi muốn book cleaning service
+- Book dịch vụ dọn dẹp nhà
+- Tôi cần đặt lịch dọn dẹp
+- Đặt dịch vụ vệ sinh nhà cửa
+- Tôi muốn book cleaning service
+- Cần đặt lịch dọn dẹp nhà vào cuối tuần
+- Muốn đặt dịch vụ dọn nhà ngày mai
+- Tôi muốn đặt lịch thuê dịch vụ dọn dẹp
+- Book lịch dọn nhà cho tôi
+- Đặt dịch vụ cleaning ngay
+- Tôi muốn đặt lịch dọn dẹp nhà vào thứ 7
+- Cần book dịch vụ dọn nhà gấp
+- Muốn đặt lịch cleaning cho căn hộ
+- Tôi muốn đặt lịch thuê người dọn dẹp nhà
+- Đặt dịch vụ dọn nhà professional
+- Book cleaning service cho nhà tôi
+- Muốn đặt lịch dọn dẹp tổng thể
+- đặt lịch dọn nhà
+- đặt lịch dọn dẹp
+- đặt lịch cleaning
+- book dọn nhà
+- book cleaning
+- đặt dịch vụ dọn nhà
+- đặt dịch vụ dọn dẹp
+- thuê dịch vụ dọn nhà
+- thuê người dọn nhà
+- cần dọn nhà
+- muốn dọn nhà
+- dọn nhà giúp tôi
+- tìm dịch vụ dọn nhà
+- tìm người dọn nhà
+- làm sạch nhà
+- vệ sinh nhà cửa
+- dọn dẹp nhà cửa
+- cleaning service
+- house cleaning
+- home cleaning
+- đặt lịch vệ sinh
+- book vệ sinh nhà
+- thuê cleaning
+- cần cleaning service
+- muốn thuê dọn nhà
+- đặt lịch làm sạch nhà
+- book dịch vụ làm sạch
+- tôi cần dọn nhà
+- giúp tôi dọn nhà
+- dọn nhà hộ tôi
+- làm sạch nhà hộ
+- vệ sinh nhà hộ tôi
+- lịch dọn nhà
+- lịch dọn dẹp
+- lịch cleaning
+- lịch vệ sinh
+- đặt lịch dọn
+- đặt lịch vệ sinh nhà
+- đặt lịch làm sạch
+- muốn đặt lịch dọn nhà
+- muốn đặt lịch dọn dẹp
+- muốn đặt lịch cleaning
+- cần đặt lịch dọn nhà
+- cần đặt lịch dọn dẹp
+- tôi muốn đặt lịch dọn nhà
+- tôi muốn đặt lịch dọn dẹp
+- tôi cần đặt lịch dọn nhà
+- anh muốn đặt lịch dọn nhà
+- em muốn đặt lịch dọn nhà
+- chị muốn đặt lịch dọn nhà
+- đặt lịch dọn nhà cho tôi
+- đặt lịch dọn dẹp cho tôi
+- book lịch dọn nhà cho tôi
+- đặt lịch dọn nhà giúp tôi
+- đặt lịch dọn dẹp giúp tôi
+
+
+# CANCEL SERVICE INTENT - Không muốn đặt lịch nữa
+cancel_service:
+- Tôi không muốn đặt lịch nữa
+- Hủy đặt dịch vụ
+- Không cần book nữa
+- Tôi thôi không đặt
+- Cancel booking
+- Không muốn thuê dịch vụ nữa
+- Tôi đổi ý rồi không đặt
+- Hủy lịch dọn nhà
+- Không cần dịch vụ nữa
+- Tôi không đặt lịch đâu
+- Thôi không book nữa
+- Cancel dịch vụ dọn nhà
+- Tôi muốn hủy đặt lịch
+- Không cần cleaning service
+- Tôi không muốn đặt dịch vụ
+- Thôi tôi tự dọn
+- Hủy booking dọn nhà
+- Không thuê người dọn nữa
+- Tôi chỉ muốn tư vấn thôi
+- Không cần đặt lịch
+- Chỉ muốn tư vấn không muốn đặt lịch 
+- Chỉ muốn tư vấn 
+- I don’t want to book anymore
+- Cancel the service booking
+- No need to book anymore
+- I won’t make the booking
+- Cancel booking
+- I don’t want the service anymore
+- I changed my mind, I won’t book
+- Cancel the house cleaning appointment
+- I don’t need the service anymore
+- I’m not going to book
+- I won’t book anymore
+- Cancel the cleaning service
+- I want to cancel my booking
+- No need for cleaning service
+- I don’t want to book the service
+- I’ll just clean it myself
+- Cancel the cleaning booking
+- I won’t hire a cleaner anymore
+- I only want consultation
+- No need to book an appointment
+- I just want consultation, no booking
+- Consultation only
+
+
+# OTHER INTENT - Tất cả các intent khác (pricing, greeting, general questions)
+other_intent:
+- Chào em
+- Xin chào
+- Hello
+- Hi bạn
+- Chào buổi sáng
+- bTaskee là gì
+- Các dịch vụ của bTaskee
+- Giờ làm việc như thế nào
+- Hotline bao nhiêu
+- Địa chỉ công ty ở đâu
+- Anh muốn biết giá dọn dẹp nhà
+- Giá dịch vụ dọn nhà bao nhiều
+- Tính giá dọn dẹp nhà cho tôi
+- Chi phí dọn nhà như thế nào
+- Báo giá dịch vụ cleaning
+- Giá dọn dẹp nhà ngày cuối tuần
+- Muốn xem bảng giá dịch vụ
+- Hỏi giá dọn nhà 3 giờ
+- Giá cả dịch vụ như thế nào
+- Tính tiền dọn nhà bao nhiêu
+- Dịch vụ có những gì
+- Quy trình dọn nhà ra sao
+- Nhân viên có chuyên nghiệp không
+- Thời gian dọn nhà mất bao lâu
+- Có dọn được ngày lễ không
+- Khu vực nào được phục vụ
+- Thanh toán như thế nào
+- Có bảo hiểm không
+- Dụng cụ dọn dẹp ai cung cấp
+- Có dọn được ban đêm không
+- Không em
+- Không cần đâu em 
+- Khỏi em
+other_intent- À khỏi 
+other_intent- Không
+other_intent- không cần thêm
+other_intent- No
+other_intent- Not
+other_intent- No thanks
